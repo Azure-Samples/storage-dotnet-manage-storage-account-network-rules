@@ -24,10 +24,10 @@ Set the environment variable `AZURE_AUTH_LOCATION` with the full path for an aut
     git clone https://github.com/Azure-Samples/storage-dotnet-manage-storage-account-network-rules.git
 
     cd storage-dotnet-manage-storage-account-network-rules
-
-    dotnet restore
-
-    dotnet run
+  
+    dotnet build
+    
+    bin\Debug\net452\ManageStorageAccountNetworkRules.exe
 
 ## More information ##
 
