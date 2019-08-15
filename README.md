@@ -4,20 +4,20 @@ languages:
 - csharp
 products:
 - azure
-services: Storage
-platforms: dotnet
-author: yaohaizh
+extensions:
+- services: Storage
+- platforms: dotnet
 ---
 
 # Getting started on managing Network rules of a storage account using C# #
 
-      Azure Storage sample for managing storage account network rules -
-       - Create a virtual network and subnet with storage service subnet access enabled
-       - Create a storage account with access allowed only from the subnet
-       - Create a public IP address
-       - Create a virtual machine and associate the public IP address
-       - Update the storage account with access also allowed from the public IP address
-       - Update the storage account to restrict incoming traffic to HTTPS.
+ Azure Storage sample for managing storage account network rules -
+  - Create a virtual network and subnet with storage service subnet access enabled
+  - Create a storage account with access allowed only from the subnet
+  - Create a public IP address
+  - Create a virtual machine and associate the public IP address
+  - Update the storage account with access also allowed from the public IP address
+  - Update the storage account to restrict incoming traffic to HTTPS.
 
 
 ## Running this Sample ##
