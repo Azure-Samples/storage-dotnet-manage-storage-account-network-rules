@@ -7,6 +7,7 @@ products:
 extensions:
 - services: Storage
 - platforms: dotnet
+description: "Azure Storage sample for managing storage account network rules."
 ---
 
 # Getting started on managing Network rules of a storage account using C# #
