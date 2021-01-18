@@ -5,8 +5,8 @@ languages:
 products:
 - azure
 extensions:
-- services: Storage
-- platforms: dotnet
+  services: Storage
+  platforms: dotnet
 ---
 
 # Getting started on managing Network rules of a storage account using C# #
