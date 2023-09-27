@@ -271,7 +271,7 @@ namespace ManageStorageAccountNetworkRules
                 // ============================================================
 
                 //  Update the storage account to restrict incoming traffic to HTTPS
-                Utilities.Log($"Updating storage account with access also allowed from publicIP : {publicIPAddress.Data.IPAddress}");
+                Utilities.Log($"Updating storage account to restrict incoming traffic to HTTPS");
                 var patch2 = new StorageAccountPatch()
                 {
                    EnableHttpsTrafficOnly = true,
